@@ -4,8 +4,6 @@ services:
   create-searcher-front:
     image: node:18.15.0-bullseye
     volumes:
-      # node_modulesディレクトリはホスト側に渡さないようにDockerのvolume内に格納します
-      - node-modules:/create-searcher-front/node_modules
       - ../:/create-searcher-front
     tty: true
 
