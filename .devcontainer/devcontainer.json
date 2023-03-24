@@ -1,11 +1,13 @@
 {
   "name": "create-searcher-front",
-  "dockerComposeFile": ["./docker-compose.yml"],
+  "dockerComposeFile": [
+    "./docker-compose.yml"
+  ],
   "service": "create-searcher-front",
   "workspaceFolder": "/create-searcher-front",
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash",
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
@@ -18,5 +20,10 @@
     }
   },
   "extensions": [
-  ]
+    "vscode-icons-team.vscode-icons",
+    "eamodio.gitlens",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "yarn install"
 }

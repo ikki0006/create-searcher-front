@@ -2,7 +2,9 @@ version: "3"
 
 services:
   create-searcher-front:
-    image: node:18.15.0-bullseye
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ../:/create-searcher-front
     tty: true
