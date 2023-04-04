@@ -44,7 +44,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Button variant="outlined">Hello World</Button>
-      <Card sx={{ minWidth: 275 }}>
+      <Card sx={{ minWidth: 400, maxWidth: 800 }}>
         <CardContent>
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             Word of the Day
