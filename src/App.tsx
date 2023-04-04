@@ -5,8 +5,9 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import reactLogo from "./assets/images/react.svg";
+import Header from "./components/header";
 import viteLogo from "/vite.svg";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
