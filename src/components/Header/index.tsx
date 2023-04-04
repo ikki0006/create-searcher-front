@@ -52,7 +52,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const Header = (): JSX.Element => {
   return (
-    <AppBar position="static" className={styles.appbar}>
+    <AppBar className={styles.appbar}>
       <Toolbar>
         <IconButton
           size="large"
@@ -76,7 +76,7 @@ const Header = (): JSX.Element => {
             <SearchIcon />
           </SearchIconWrapper>
           <StyledInputBase
-            placeholder="Search…"
+            placeholder="検索"
             inputProps={{ "aria-label": "search" }}
           />
         </Search>

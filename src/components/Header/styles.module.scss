@@ -1,6 +1,9 @@
 .root {
   .appbar {
-    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
     box-shadow: 1px 1px 5px black;
     background-color: burlywood;
     padding: 0 15px;
